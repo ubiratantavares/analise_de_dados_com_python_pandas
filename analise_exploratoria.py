@@ -10,7 +10,6 @@ pd.set_option('display.width', 1000)
 
 pd.options.display.float_format = '{:20,.2f}'.format
 
-
 df = pd.read_excel('datasets/AdventureWorks.xlsx')
 
 print(df.shape)
@@ -88,7 +87,6 @@ plt.ylabel('Lucro')
 plt.xticks(rotation='horizontal')
 plt.savefig('imagens/grafico14.png')
 plt.show()
-
 
 print(df['Tempo_Envio'].describe())
 

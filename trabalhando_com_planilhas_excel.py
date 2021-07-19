@@ -1,5 +1,9 @@
 import pandas as pd
 
+pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_columns', 500)
+pd.set_option('display.width', 1000)
+
 df1 = pd.read_excel('datasets/Aracaju.xlsx')
 df2 = pd.read_excel('datasets/Fortaleza.xlsx')
 df3 = pd.read_excel('datasets/Natal.xlsx')
